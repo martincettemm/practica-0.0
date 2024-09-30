@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Mi primera página web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1{
+            color: #d83e3e;
+        }
+        h2{
+            color:rgba(16, 34, 114, 0.2)
+        }
+        .imagen{
+            width: 150px;
+            height: auto;
+        }
+        body{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="mi titulo">Bienvenido a mi página web</h1>
+    <script>
+    document
+            .getElementById("mi titulo")
+            .addEventListener("click", function () {
+                // Al hacer clic, cambia el color del texto a blanco
+                this.style.color = "white"; 
+            });
+    </script>
+    <p>Esta es una pagina web sobre lana del rey  </p>
+    
+    <ul>
+        <li>La la cantante mas influenciable en la industria del pop</li>
+        <li></li>
+        <li></li>
+    </ul>
+    <img src="imagen/lana.jpg" alt="imagen de ejemplo" class="jpg imagen">
+</body>
+</html>
